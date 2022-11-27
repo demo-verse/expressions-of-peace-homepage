@@ -1,4 +1,4 @@
-import { useMantineTheme, Container, Text, Title, Grid, Card, Image, Badge, Button, Group } from '@mantine/core';
+import { useMantineTheme, Container, Text, Title, Grid, Card, Image, Group } from '@mantine/core';
 
 const SectionFour = () => {
     const theme = useMantineTheme();
@@ -15,29 +15,27 @@ const SectionFour = () => {
                 imagined as a novel and sustainable method
                 for assuring a World Peace, altogether.
                 </Text>
-              
-
                 <Grid>
                     <Grid.Col xs={12} sm={4} md={4} lg={4}>
                         <Card shadow="sm" p="lg" style={{ height: '100%'}}>
                             <Card.Section>
-                                <Image src={require('../Images/lime-welcome.png')} alt={'sample1'} />
+                                <Image src={require('../Images/someone-express-peace.png')} alt={'sample1'} />
                             </Card.Section>
 
                             <Group position="apart" style={{ marginBottom: 5, marginTop: theme.spacing.sm }}>
                                 <Text weight={500}>Someone express peace</Text>
-                                <Badge color="yellow" variant="light">
+                                {/* <Badge color="yellow" variant="light">
                                     Cool badge
-                                </Badge>
+                                </Badge> */}
                             </Group>
 
-                            <Text size="sm">
+                            {/* <Text size="sm">
                                 Discover the career of Dennis Farina and his roles in movies!
                             </Text>
 
                             <Button variant="light" color="yellow" fullWidth mt="14px">
                                 Find out
-                            </Button>
+                            </Button> */}
                         </Card>
                     </Grid.Col>
 
@@ -45,46 +43,46 @@ const SectionFour = () => {
                     <Grid.Col xs={12} sm={4} md={4} lg={4}>
                         <Card shadow="sm" p="lg" style={{ height: '100%' }}>
                             <Card.Section>
-                                <Image src={require('../Images/lime-message-sent.png')} alt={'sample1'} />
+                                <Image src={require('../Images/someone-discover-an-expression.png')} alt={'sample1'} />
                             </Card.Section>
 
                             <Group position="apart" style={{ marginBottom: 5, marginTop: theme.spacing.sm }}>
-                                <Text weight={500}>& acknowledged and reflected</Text>
-                                <Badge color="yellow" variant="light">
+                                <Text weight={500}>Someone discovers an expression</Text>
+                                {/* <Badge color="yellow" variant="light">
                                     Cool badge 3
-                                </Badge>
+                                </Badge> */}
                             </Group>
 
-                            <Text size="sm">
+                            {/* <Text size="sm">
                                 Discover the major roles of Dennis Farina and something else!
                             </Text>
 
                             <Button variant="light" color="yellow" fullWidth mt="14px">
                                 Find out
-                            </Button>
+                            </Button> */}
                         </Card>
                     </Grid.Col>
 
                     <Grid.Col xs={12} sm={4} md={4} lg={4}>
                         <Card shadow="sm" p="lg" style={{ height: '100%' }}>
                             <Card.Section>
-                                <Image src={require('../Images/lime-canoeing.png')} alt={'sample1'} />
+                                <Image src={require('../Images/they-acknowledge-each-other.png')} alt={'sample1'} />
                             </Card.Section>
 
                             <Group position="apart" style={{ marginBottom: 5, marginTop: theme.spacing.sm }}>
-                                <Text weight={500}>Expression is left to be discovered</Text>
-                                <Badge color="yellow" variant="light">
+                                <Text weight={500}>They acknowledge each other</Text>
+                                {/* <Badge color="yellow" variant="light">
                                     Cool badge 2
-                                </Badge>
+                                </Badge> */}
                             </Group>
 
-                            <Text size="sm">
+                            {/* <Text size="sm">
                                 Dennis Farina had a really great career with many opportunities!
-                            </Text>
+                            </Text> */}
 
-                            <Button variant="light" color="yellow" fullWidth mt="14px">
+                            {/* <Button variant="light" color="yellow" fullWidth mt="14px">
                                 Find out
-                            </Button>
+                            </Button> */}
                         </Card>
                     </Grid.Col>
                 </Grid>

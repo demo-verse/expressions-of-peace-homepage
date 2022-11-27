@@ -8,7 +8,7 @@ import {
   Anchor,
   Text,
 } from "@mantine/core";
-import { UnstyledButton, Group, Avatar } from "@mantine/core";
+import { UnstyledButton, Group } from "@mantine/core";
 import React from "react";
 import { Link } from "react-scroll";
 
@@ -27,8 +27,18 @@ const Header = () => {
         </div>
         <div className="navbar">
           <div className="navbar-item">
+            <Link to="section-four" smooth duration={500}>
+              A Flow of Peace
+            </Link>
+          </div>
+          <div className="navbar-item">
             <Link to="section-one" smooth duration={500}>
-              How it works?
+              Feel free
+            </Link>
+          </div>
+          <div className="navbar-item">
+            <Link to="section-one" smooth duration={500}>
+              Up and running
             </Link>
           </div>
           <div className="navbar-item">
@@ -36,11 +46,11 @@ const Header = () => {
               Cards
             </Link>
           </div>
-          <div className="navbar-item">
+          {/* <div className="navbar-item">
             <Link to="section-five" smooth duration={500}>
               FAQS
             </Link>
-          </div>
+          </div> */}
 
           <Button
             color="dark"

@@ -6,17 +6,17 @@ const Footer = () => {
 'violet' | 'indigo' | 'blue' | 'cyan' | 'green' |
  'lime' | 'yellow' | 'orange' | 'teal' | */}
     return (
-        <footer style={{ backgroundColor: theme.colors.red[4]}}>
+        <footer style={{ backgroundColor: theme.colors.grape[4]}}>
 
             <Container>
                 <Grid justify="space-around">
 
                     <Grid.Col xs={12} sm={8} md={8} lg={8}>
                         
-                        <Text size="xl" weight={700} color="white" mb="10px">Expressions of Peace</Text>
+                        <Text weight={700} color="white" mb="10px" style={{fontSize: "1.8rem"}}>Expressions of Peace</Text>
 
-                        <Text color="white" mb="5px">
-                            Generation Peace! How would you express peace?
+                        <Text color="white" mb="5px" style={{fontSize: "1.2rem"}}>
+                            Generation Peace! How would you express and make a World Peace?
                         </Text>
 
                         {/* <Text color="white" mb="20px">

@@ -12,7 +12,7 @@ const SectionPeacemaker = () => {
             <div style={{ marginBottom: 20 }}>
 
             <Text color="black">
-              <Title order={1}>Introducing the Peacemaker</Title>
+              <Title order={1}>Introducing  Peacemaker</Title>
 
               {/* For the Peacemaker decentralized app (dapp), we have prepared
               simple smart contracts, and they are evolving. 
@@ -87,7 +87,7 @@ const SectionPeacemaker = () => {
           </Grid.Col>
           <Grid.Col xs={6} sm={4} md={4} lg={4}>
             <Image
-              src={require("../Images/lime-surfing.png")}
+              src={require("../Images/introducing-peacemaker.png")}
               alt={"sample1"}
               style={{ width: "100%" }}
             />

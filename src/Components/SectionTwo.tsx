@@ -8,7 +8,7 @@ const SectionTwo = () => {
     <section id="section-two">
       <Container>
         <Grid justify="space-around">
-        <Grid.Col xs={6} sm={6} md={6} lg={6}>
+        <Grid.Col xs={6} sm={8} md={6} lg={6}>
             <Image
               src={require("../Images/lime-surfing.png")}
               alt={"sample1"}
@@ -35,7 +35,10 @@ const SectionTwo = () => {
               </Text>
 
               <Text color="black" style={{ marginBottom: "22px" }}>
-                <strong>Today</strong>, with a shared purpose, right and purpose, <strong>we can</strong> seal a World Peace treaty, proactively, as one humanity.
+                <strong>Today</strong>, with a shared purpose, backed by{" "}
+                 
+                <a href="https://www.aworldpeace.org/#our-right" target={"_blank"}>a human right</a>
+                {" "}and technology, <strong>we can</strong> seal a World Peace treaty, proactively, as one humanity.
                 {/* , which shall be lasting forever and ever. */}
               </Text>
 
