@@ -3,7 +3,6 @@ import { Button, Text, Container, useMantineTheme, Title } from "@mantine/core";
 import "../Styles/SectionOne.scss";
 import { Link } from "react-scroll";
 import { MdOutlineArrowDownward } from "react-icons/md";
-import { useState } from "react";
 
 const SectionOne = () => {
   const theme = useMantineTheme();
@@ -14,30 +13,33 @@ const SectionOne = () => {
     justifyContent: "center",
     alignItems: "center",
     flexDirection: "column" as "column",
-    backgroundColor: theme.colors.yellow[5],
-    borderRadius: 15,
-    gap: 15,
+    backgroundColor: theme.colors.dark[5],
+    // borderRadius: 0,
+    // gap: 15,
+    color: "white",
+    fontSize: "1.4rem",
   };
 
   return (
     <section id="section-one">
       <Container>
         <Text color="black" align="center" mb="15px">
-          <Title order={1}>What it takes to use the app? </Title>
+          <Title order={1}>How to make peace on web3?</Title>
         </Text>
 
-        <Text color="black" align="center" mb="25px">
-          It takes (almost) nothing but high level of generosity and awareness. Check it
-          out!
+        <Text color="black" align="center" mb="25px" style={{fontSize: "1.8rem"}}>
+          It only takes high level of generosity and awareness.
         </Text>
 
         <Carousel
           withIndicators
-          height={300}
-          slideSize="33.333333%"
+          height={320}
+          slideSize="50%"
           slideGap="md"
           breakpoints={[
-            { maxWidth: "md", slideSize: "50%" },
+            { maxWidth: "lg", slideSize: "50%" },
+            // { maxWidth: "xl", slideSize: "100%" },
+            { maxWidth: "md", slideSize: "100%" },
             { maxWidth: "sm", slideSize: "100%", slideGap: 15 },
           ]}
           loop
@@ -47,38 +49,46 @@ const SectionOne = () => {
         >
           <Carousel.Slide>
             <div style={carouselContent}>
-              <Title order={2}>1</Title>
+              {/* <Title order={1}>1</Title> */}
               <Text style={{ textAlign: "center" }}>
-                This is a blockchain-based app. <br></br>
-                <br></br>In case you don't already have it, <br></br>install{" "}
+                Start with a good introduction to blockchain, <br></br>{" "}
+                 <a href="https://www.ibm.com/topics/what-is-blockchain" target={"_blank"}>here</a>.
+              </Text>
+            </div>
+          </Carousel.Slide>
+
+          <Carousel.Slide>
+            <div style={carouselContent}>
+              {/* <Title order={1}>1</Title> */}
+              <Text style={{ textAlign: "center" }}>
+                Installing a{" "}
                 <a href="https://metamask.io" target={"_blank"}>
                   metamask wallet
-                </a>{" "}
-                on your browser, <br></br> then initiate your wallet and first
-                account.
+                </a>{" "} <br></br>
+                on your browser <br></br> is a requirement.
               </Text>
             </div>
           </Carousel.Slide>
+
           <Carousel.Slide>
             <div style={carouselContent}>
-              <Title order={2}>2</Title>
+              {/* <Title order={2}>2</Title> */}
               <Text style={{ textAlign: "center", textOverflow: "unset" }}>
-                After having an account in the wallet, <br></br>{" "}
-                <a href="https://goerlifaucet.com" target={"_blank"}>
-                  get some free tokens
+              Lastly, free tokens for <br></br> <a href="https://goerlifaucet.com" target={"_blank"}>
+               Görli testnet 
                 </a>{" "}
-                for the Görli test network.{" "}
+                 <br></br>  are also needed.{" "}
               </Text>
             </div>
           </Carousel.Slide>
           <Carousel.Slide>
             <div style={carouselContent}>
-              <Title order={2}>3</Title>
-              <Text style={{ textAlign: "center" }}>Now you are ready.</Text>
+              {/* <Title order={3}>3</Title> */}
+              {/* <Text style={{ textAlign: "center" }}>Now you are ready.</Text> */}
               <Link to="section-peacemaker" smooth duration={500}>
                 <Button
-                  color="cyan"
-                  rightIcon={<MdOutlineArrowDownward size={16} />}
+                  color="violet"
+                  leftIcon={<MdOutlineArrowDownward size={18} />}
                   radius="lg"
                   size="md"
                 >

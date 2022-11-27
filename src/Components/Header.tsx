@@ -28,7 +28,7 @@ const Header = () => {
         <div className="navbar">
           <div className="navbar-item">
             <Link to="section-one" smooth duration={500}>
-              How to start?
+              How it works?
             </Link>
           </div>
           <div className="navbar-item">

@@ -6,9 +6,16 @@ const SectionFour = () => {
     return (
         <section id="section-four">
             <Container>
-                <Text color="black" align="center">
-                    <Title order={1} mb="30px">A Flow of Peace</Title>
+                <Text color="black" align="center" style={{marginBottom: "1.2rem"}}>
+                    <Title order={1}>It's your piece @ a World Peace</Title>
+
                 </Text>
+                <Text style={{fontSize: "1.8rem", marginBottom:"2rem", textAlign:"center" }}>
+                Expressions of Peace extend the Freedom of Expression;
+                imagined as a novel and sustainable method
+                for assuring a World Peace, altogether.
+                </Text>
+              
 
                 <Grid>
                     <Grid.Col xs={12} sm={4} md={4} lg={4}>

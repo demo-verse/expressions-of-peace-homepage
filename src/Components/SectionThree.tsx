@@ -18,11 +18,11 @@ const SectionThree = () => {
             <div style={{ marginBottom: 20 }}>
               <Text color="black">
                 <Title order={1}>Your expression, your decision</Title>
-                Expressions of Peace extend the Freedom of Expression;
-                imagined and being implemented as a novel and sustainable method
-                for assuring a World Peace, <br></br><br></br> (optionally) as a citizen of any
-                country, while experiencing this along with an
+                <Text style={{fontSize: "1.8rem", marginBottom:"2rem"  }}>
+                We have developed a proof of concept app, and launched that on blockchain. It can experienced as a citizen of a
+                country, with an
                 attitude & behavior of a world residency.
+                </Text>
                 {/* Expressions of Peace extend the Freedom of Expression, it is
                 pretty much like "anything non-violent goes". */}
               </Text>

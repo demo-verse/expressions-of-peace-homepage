@@ -10,16 +10,29 @@ const SectionPeacemaker = () => {
         <Grid justify="space-around">
           <Grid.Col xs={6} sm={8} md={8} lg={8}>
             <div style={{ marginBottom: 20 }}>
-              <Text color="black">
-                <Title order={1}>Peacemaker</Title>
-                If you have completed the setup guide above, we're good to go!
-              </Text>
+
+            <Text color="black">
+              <Title order={1}>Introducing the Peacemaker</Title>
+
+              {/* For the Peacemaker decentralized app (dapp), we have prepared
+              simple smart contracts, and they are evolving. 
+               */}
+              {/* Each contract
+              stores only the last expression, and previous ones go into
+              transacrion history of those contracts. */}
+            </Text>
+            <Text style={{fontSize: "1.8rem"}}>
+            If you have completed the setup guide above, it's time to make peace, like we never did before.
+
+            </Text>
+            
             </div>
             {/* <Link to="section-peacemaker" smooth duration={500}>
                             <Button color="cyan" rightIcon={<MdOutlineArrowDownward size={16} />} radius="lg" size="md">All setup?</Button>
                         </Link> */}
             <Button
               color="dark"
+              style={{marginTop: "1rem", width:"10rem", height:"4rem", fontSize:"1.2rem"}}
               onClick={() => redirectToLink("https://expressionsofpeace.org")}
             >
               Enter the app
@@ -27,13 +40,8 @@ const SectionPeacemaker = () => {
             <br></br>
             <br></br>
 
-            <Text color="black">
-              For the Peacemaker decentralized app (dapp), we have prepared
-              simple smart contracts, and they are evolving. Each contract
-              stores only the last expression, and previous ones go into
-              transacrion history of those contracts.
-            </Text>
-
+           
+{/* 
             <br></br>
             <Button
               color="dark"
@@ -75,7 +83,7 @@ const SectionPeacemaker = () => {
               In the second, we have introduced an optional input, citizenship
               info. Third one will be more sophisticated, and again, optionally
               receiving full name and nick name as well.
-            </Text>
+            </Text> */}
           </Grid.Col>
           <Grid.Col xs={6} sm={4} md={4} lg={4}>
             <Image
