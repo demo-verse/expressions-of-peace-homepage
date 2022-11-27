@@ -31,7 +31,7 @@ const SectionThree = () => {
           </Grid.Col>
           <Grid.Col xs={6} sm={4} md={4} lg={8}>
             <Image
-              src={require("../Images/your-expression-your-decision.png")}
+              src={require("../Images/your-expression-your-decision-2.png")}
               alt={"sample2"}
               style={{ width: "100%", marginTop: "4rem"}}
             />
