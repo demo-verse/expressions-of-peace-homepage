@@ -33,7 +33,7 @@ const SectionPeacemaker = () => {
             <Button
               color="dark"
               style={{marginTop: "1rem", width:"10rem", height:"4rem", fontSize:"1.2rem"}}
-              onClick={() => redirectToLink("https://expressionsofpeace.org")}
+              onClick={() => redirectToLink("https://expressions-of-peace.vercel.app")}
             >
               Enter the app
             </Button>

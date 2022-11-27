@@ -47,7 +47,7 @@ const SectionFour = () => {
                             </Card.Section>
 
                             <Group position="apart" style={{ marginBottom: 5, marginTop: theme.spacing.sm }}>
-                                <Text weight={500}>Someone discovers an expression</Text>
+                                <Text weight={500}>Someone discover an expression</Text>
                                 {/* <Badge color="yellow" variant="light">
                                     Cool badge 3
                                 </Badge> */}
