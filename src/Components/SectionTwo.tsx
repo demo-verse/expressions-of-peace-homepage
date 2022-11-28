@@ -44,7 +44,7 @@ const SectionTwo = () => {
                 <a href="https://www.aworldpeace.org/#our-right" target={"_blank"}>a human right</a>
                 {" "}and technology, <strong>we can</strong> seal a World Peace treaty, {" "}
     
-                <a href="https://www.aworldpeace.org/#our-right" target={"_blank"}>proactively</a>
+                <a href="https://www.expressionsofdemand.org" target={"_blank"}>proactively</a>
                 , as one humanity.
                 {/* , which shall be lasting forever and ever. */}
               </Text>
