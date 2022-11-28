@@ -7,7 +7,7 @@ const SectionFour = () => {
         <section id="section-four">
             <Container>
                 <Text color="black" align="center" style={{marginBottom: "1.2rem"}}>
-                    <Title order={1}>It's your piece @ a World Peace</Title>
+                    <Title style={{fontSize: "2.2rem"}}  order={1}>It's your piece @ a World Peace</Title>
 
                 </Text>
                 <Text style={{fontSize: "1.8rem", marginBottom:"2rem", textAlign:"center" }}>

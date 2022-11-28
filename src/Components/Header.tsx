@@ -27,13 +27,13 @@ const Header = () => {
         </div>
         <div className="navbar">
           <div className="navbar-item">
-            <Link to="section-four" smooth duration={500}>
-              A Flow of Peace
+            <Link to="section-two" smooth duration={500}>
+              Intro
             </Link>
           </div>
           <div className="navbar-item">
-            <Link to="section-one" smooth duration={500}>
-              Feel free
+            <Link to="section-four" smooth duration={500}>
+              A Flow of Peace
             </Link>
           </div>
           <div className="navbar-item">
@@ -41,9 +41,14 @@ const Header = () => {
               Up and running
             </Link>
           </div>
-          <div className="navbar-item">
-            <Link to="section-four" smooth duration={500}>
-              Cards
+          <div >
+            <Link to="section-peacemaker" smooth duration={500}>
+            <Button
+            color="dark"
+          >
+           DApp
+          </Button>
+              
             </Link>
           </div>
           {/* <div className="navbar-item">
@@ -87,12 +92,12 @@ const Header = () => {
             <div className="menu-items">
               <div className="menu-item">
                 <Link
-                  to="section-one"
+                  to="section-two"
                   smooth
                   duration={500}
                   onClick={() => setOpened(false)}
                 >
-                  <Title order={2}>Carousel</Title>
+                  <Title order={2}>Intro</Title>
                 </Link>
               </div>
               <div className="menu-item">
@@ -102,18 +107,35 @@ const Header = () => {
                   duration={500}
                   onClick={() => setOpened(false)}
                 >
-                  <Title order={2}>Cards</Title>
+                  <Title order={2}>A Flow of Peace</Title>
                 </Link>
               </div>
               <div className="menu-item">
                 <Link
-                  to="section-five"
+                  to="section-one"
                   smooth
                   duration={500}
                   onClick={() => setOpened(false)}
                 >
-                  <Title order={2}>FAQs</Title>
+                  <Title order={2}>Requirements</Title>
                 </Link>
+
+                <Link
+                  to="section-peacemaker"
+                  smooth
+                  duration={500}
+                  onClick={() => setOpened(false)}
+                  
+                >
+                  <Title  style={{marginBottom: "1.2rem", marginTop:"1.2rem"}} order={2}>DApp</Title>
+                </Link>
+
+                <Button
+            color="dark"
+            onClick={() => redirectToLink("https://www.aworldpeace.org")}
+          >
+            A World Peace
+          </Button>
               </div>
             </div>
 

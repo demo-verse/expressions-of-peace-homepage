@@ -1,6 +1,5 @@
 import { Title, Text, Container, Grid, Image, Button } from "@mantine/core";
-import { Link } from "react-scroll";
-import { MdOutlineArrowDownward } from "react-icons/md";
+
 const SectionPeacemaker = () => {
   //const theme = useMantineTheme();
 
@@ -22,7 +21,7 @@ const SectionPeacemaker = () => {
               transacrion history of those contracts. */}
             </Text>
             <Text style={{fontSize: "1.8rem"}}>
-            If you have completed the setup guide above, it's time to make peace, like we never did before.
+            If you have completed the setup guide above, now it's time to make peace, like you never did before.
 
             </Text>
             
@@ -32,10 +31,10 @@ const SectionPeacemaker = () => {
                         </Link> */}
             <Button
               color="dark"
-              style={{marginTop: "1rem", width:"10rem", height:"4rem", fontSize:"1.2rem"}}
+              style={{marginTop: "1rem", width:"11rem", height:"4rem", fontSize:"1.2rem"}}
               onClick={() => redirectToLink("https://expressions-of-peace.vercel.app")}
             >
-              Enter the app
+              Enter the DApp
             </Button>
             <br></br>
             <br></br>

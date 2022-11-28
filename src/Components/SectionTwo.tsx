@@ -16,29 +16,36 @@ const SectionTwo = () => {
             />
           </Grid.Col>
           <Grid.Col xs={6} sm={8} md={8} lg={8}>
-            <div style={{ marginBottom: 20, fontSize: "1.8rem" }}>
+            <div style={{ marginBottom: 20}}>
               <Text color="black" style={{ marginBottom: "22px" }}>
-                <Title order={1} size="xl" style={{textAlign: "center"}}>The world runs on contracts</Title>
-                <MdOutlineFormatQuote/>
-                The Egyptian-Hittite peace treaty, following the battle of Kadesh is believed to be the earliest example of any written international agreement of any kind.
-                <MdOutlineFormatQuote/> -- <a href="https://en.wikipedia.org/wiki/Battle_of_Kadesh" target={"_blank"}><i>Wikipedia</i></a>
+                <Title order={1}  style={{textAlign: "center", fontSize: "2.2rem"}}>The world runs on contracts</Title>
+                
+                
 
                 {/* Following the time, the invention of writing around 3400 BC, our
                 civilization made use of for many purposes. We have
                 mainly used that primarily for recording messages of concern of
-                a person, or many, sometimes all people.{" "} */}
+              a person, or many, sometimes all people.{" "} */}
               </Text>
 
-              <Text color="black" style={{ marginBottom: "22px" }}>
-              Most peace treaties, have been sealed following battles, wars and periods of violence and inhumane experiences, yielding with traumas, ending of lives, forcing people migrating to the realms and realities of (known and unknown) unknowns.
+              <Text style={{fontSize: "1.8rem", marginBottom: "1.6rem" }}>
+              <MdOutlineFormatQuote size={"20"} />The Egyptian-Hittite peace treaty, following the battle of Kadesh is believed to be the earliest example of any written international agreement of any kind.
+              <MdOutlineFormatQuote size={"20"}/> -- <a href="https://en.wikipedia.org/wiki/Battle_of_Kadesh" target={"_blank"}><i>Wikipedia</i></a>
+              </Text>
+
+              <Text color="black" style={{ marginBottom: "22px",fontSize: "1.8rem" } }>
+              Most peace treaties in our history have been sealed following battles, wars and periods of violence and inhumane experiences; resulting with traumas, ending of lives, forcing people migrating to the realms and realities of (known and unknown) unknowns.
 
               </Text>
 
-              <Text color="black" style={{ marginBottom: "22px" }}>
+              <Text color="black" style={{ marginBottom: "22px",fontSize: "1.8rem" } }>
                 <strong>Today</strong>, with a shared purpose, backed by{" "}
                  
                 <a href="https://www.aworldpeace.org/#our-right" target={"_blank"}>a human right</a>
-                {" "}and technology, <strong>we can</strong> seal a World Peace treaty, proactively, as one humanity.
+                {" "}and technology, <strong>we can</strong> seal a World Peace treaty, {" "}
+    
+                <a href="https://www.aworldpeace.org/#our-right" target={"_blank"}>proactively</a>
+                , as one humanity.
                 {/* , which shall be lasting forever and ever. */}
               </Text>
 
