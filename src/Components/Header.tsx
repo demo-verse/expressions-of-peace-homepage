@@ -33,12 +33,12 @@ const Header = () => {
           </div>
           <div className="navbar-item">
             <Link to="section-four" smooth duration={500}>
-              A Flow of Peace
+              Flow
             </Link>
           </div>
           <div className="navbar-item">
             <Link to="section-one" smooth duration={500}>
-              Up and running
+              Requirements
             </Link>
           </div>
           <div >
@@ -107,7 +107,7 @@ const Header = () => {
                   duration={500}
                   onClick={() => setOpened(false)}
                 >
-                  <Title order={2}>A Flow of Peace</Title>
+                  <Title order={2}>Flow</Title>
                 </Link>
               </div>
               <div className="menu-item">
