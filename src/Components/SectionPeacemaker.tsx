@@ -11,7 +11,7 @@ const SectionPeacemaker = () => {
             <div style={{ marginBottom: 20 }}>
 
             <Text color="black">
-              <Title order={1}>Introducing  Peacemaker</Title>
+              <Title order={1}>Be a  peacemaker</Title>
 
               {/* For the Peacemaker decentralized app (dapp), we have prepared
               simple smart contracts, and they are evolving. 
@@ -29,6 +29,15 @@ const SectionPeacemaker = () => {
             {/* <Link to="section-peacemaker" smooth duration={500}>
                             <Button color="cyan" rightIcon={<MdOutlineArrowDownward size={16} />} radius="lg" size="md">All setup?</Button>
                         </Link> */}
+           
+           <Button
+              color="dark"
+              style={{color: "white", backgroundColor: "red",marginRight:"1rem", marginTop: "1rem", width:"11rem", height:"4rem", fontSize:"1.2rem"}}
+              onClick={() => redirectToLink("https://expressions-of-peace.vercel.app")}
+            >
+              Watch in action
+            </Button>
+           
             <Button
               color="dark"
               style={{marginTop: "1rem", width:"11rem", height:"4rem", fontSize:"1.2rem"}}

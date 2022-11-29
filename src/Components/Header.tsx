@@ -41,14 +41,9 @@ const Header = () => {
               Requirements
             </Link>
           </div>
-          <div >
+          <div>
             <Link to="section-peacemaker" smooth duration={500}>
-            <Button
-            color="dark"
-          >
-           DApp
-          </Button>
-              
+              <Button color="dark">DApp</Button>
             </Link>
           </div>
           {/* <div className="navbar-item">
@@ -83,7 +78,7 @@ const Header = () => {
           overlayOpacity={0.55}
           position="right"
           closeButtonLabel="Close drawer"
-          title="Menu"
+          title=""
           padding="xl"
           opened={opened}
           onClose={() => setOpened(false)}
@@ -125,17 +120,22 @@ const Header = () => {
                   smooth
                   duration={500}
                   onClick={() => setOpened(false)}
-                  
                 >
-                  <Title  style={{marginBottom: "1.2rem", marginTop:"1.2rem"}} order={2}>DApp</Title>
+                  <Title
+                    style={{ marginBottom: "1.2rem", marginTop: "1.2rem" }}
+                    order={2}
+                  >
+                    DApp
+                  </Title>
                 </Link>
 
                 <Button
-            color="dark"
-            onClick={() => redirectToLink("https://www.aworldpeace.org")}
-          >
-            A World Peace
-          </Button>
+                  color="dark"
+                  style={{ fontSize: "1.2rem" }}
+                  onClick={() => redirectToLink("https://www.aworldpeace.org")}
+                >
+                  A World Peace
+                </Button>
               </div>
             </div>
 
@@ -155,47 +155,6 @@ const Header = () => {
                                 matrix
                             </Anchor> */}
             </div>
-
-            <Code
-              color="yellow"
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                gap: 6,
-                padding: 15,
-              }}
-            >
-              made by
-              <Anchor href="https://github.com/Giuseppetm">
-                <UnstyledButton>
-                  <Group>
-                    {/* <Avatar size={} color="orange">offset movement</Avatar> */}
-                    <div className="menu-items">
-                      <Text>Peacemakers community</Text>
-
-                      <Anchor
-                        href="https://discord.gg/sqjdyCWNAR"
-                        target={"_blank"}
-                      >
-                        discord
-                      </Anchor>
-                      <Anchor
-                        href="https://keybase.io/team/peacemakers"
-                        target={"_blank"}
-                      >
-                        keybase
-                      </Anchor>
-                      <Anchor
-                        href="https://app.orbis.club/group/kjzl6cwe1jw147jurloxh41cderszpog6t2bho8kwoa90jfvj9dk0z930oykndk"
-                        target={"_blank"}
-                      >
-                        orbis club
-                      </Anchor>
-                    </div>
-                  </Group>
-                </UnstyledButton>
-              </Anchor>
-            </Code>
           </div>
         </Drawer>
       </div>

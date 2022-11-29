@@ -93,14 +93,14 @@ const SectionOne = () => {
             <div style={carouselContent}>
               {/* <Title order={2}>2</Title> */}
               <Text style={{ textAlign: "center", marginBottom:"2.4rem" }}>
-              Lastly, free tokens for <br></br> <a href="https://goerlifaucet.com" target={"_blank"}>
+              Lastly, get some free tokens for <br></br> <a href="https://goerlifaucet.com" target={"_blank"}>
                Görli testnet 
                 </a>{" "}
                  
               </Text>
 
               <Text style={{ textAlign: "center", textOverflow: "unset" }}>
-             Learn about test networks <br></br> <a href="https://www.alchemy.com/overviews/what-are-testnets" target={"_blank"}>
+             Read about test networks <br></br> <a href="https://www.alchemy.com/overviews/what-are-testnets" target={"_blank"}>
                here 
                 </a>{" "} and  {" "}
                 <a href="https://www.gemini.com/cryptopedia/blockchain-testnet-devnet-sandbox-crypto-mainnet#section-blockchain-mainnet-technology-and-web-3-0 " target={"_blank"}>
