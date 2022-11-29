@@ -50,9 +50,22 @@ const SectionOne = () => {
           <Carousel.Slide>
             <div style={carouselContent}>
               {/* <Title order={1}>1</Title> */}
+              <Text style={{ textAlign: "center", marginBottom:"2.4rem" }}>
+                Learn about blockchain, <br></br>{" "} by {" "}
+                
+                 <a href="https://en.wikipedia.org/wiki/Blockchain" target={"_blank"}>reading</a> or 
+                 {" "}
+                 <a href="https://www.youtube.com/watch?v=SSo_EIwHSd4" target={"_blank"}>watching.</a>
+                 
+              </Text>
+
               <Text style={{ textAlign: "center" }}>
-                Start with an introduction to blockchain, <br></br>{" "}
-                 <a href="https://blockgeeks.com/guides/what-is-blockchain-technology" target={"_blank"}>here</a>.
+                 Learn about smart contracts,  <br></br> again by {" "}
+                
+                 <a href="https://en.wikipedia.org/wiki/Smart_contract" target={"_blank"}>reading</a> or 
+                 {" "}
+                 <a href="https://www.youtube.com/watch?v=SSo_EIwHSd4" target={"_blank"}>watching.</a>
+                 
               </Text>
             </div>
           </Carousel.Slide>
@@ -60,12 +73,18 @@ const SectionOne = () => {
           <Carousel.Slide>
             <div style={carouselContent}>
               {/* <Title order={1}>1</Title> */}
-              <Text style={{ textAlign: "center" }}>
-                Installing a{" "}
+              <Text style={{ textAlign: "center", marginBottom:"2.4rem" }}>
+                Install{" "}
                 <a href="https://metamask.io" target={"_blank"}>
-                  metamask wallet
+                  a metamask wallet
                 </a>{" "} <br></br>
-                on your browser <br></br> is a requirement.
+                on your browser <br></br>  & create your first account.
+              </Text>
+
+              <Text style={{ textAlign: "center" }}>
+                Learn how it's done <br></br> by watching {" "} <a href="https://www.youtube.com/watch?v=Af_lQ1zUnoM" target={"_blank"}>
+                this.
+                </a>  
               </Text>
             </div>
           </Carousel.Slide>
@@ -73,11 +92,21 @@ const SectionOne = () => {
           <Carousel.Slide>
             <div style={carouselContent}>
               {/* <Title order={2}>2</Title> */}
-              <Text style={{ textAlign: "center", textOverflow: "unset" }}>
+              <Text style={{ textAlign: "center", marginBottom:"2.4rem" }}>
               Lastly, free tokens for <br></br> <a href="https://goerlifaucet.com" target={"_blank"}>
                Görli testnet 
                 </a>{" "}
-                 <br></br>  are also needed.{" "}
+                 
+              </Text>
+
+              <Text style={{ textAlign: "center", textOverflow: "unset" }}>
+             Learn about test networks <br></br> <a href="https://www.alchemy.com/overviews/what-are-testnets" target={"_blank"}>
+               here 
+                </a>{" "} and  {" "}
+                <a href="https://www.gemini.com/cryptopedia/blockchain-testnet-devnet-sandbox-crypto-mainnet#section-blockchain-mainnet-technology-and-web-3-0 " target={"_blank"}>
+               here 
+                </a>
+                
               </Text>
             </div>
           </Carousel.Slide>

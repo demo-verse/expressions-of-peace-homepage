@@ -13,11 +13,12 @@ const SectionThree = () => {
               <Text color="black">
                 <Title order={1}>Your expression, your decision</Title>
                 <Text style={{ fontSize: "1.4rem", marginBottom: "2rem" }}>
-                  We have developed a proof of concept app, and launched that on
-                  blockchain. We have named that Peacemaker. 
+                  We have developed a proof of concept app, named that Peacemaker. People from 8 countries have already experienced using it.
                   <br></br><br></br>
 
-                  Using that app requires short setup, and it is free of charge. Here, we provide tools. Product is not you, it is to be a World Peace, because of you.
+                  Peacemaker requires short setup, and it is free of charge, because it is currently launched on a blockchain test network.
+                  <br></br><br></br>
+                  Here, we provide tools; the product is <strong>not</strong> you, it is to be a World Peace, <u>because of you.</u>
                   <br></br><br></br>
                   With that, first action of an individual sovereignty on peace-oriented diplomacy
                   can be experienced (optionally) as a citizen of a country, or
