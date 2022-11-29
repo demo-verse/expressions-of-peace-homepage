@@ -33,7 +33,7 @@ const SectionPeacemaker = () => {
            <Button
               color="dark"
               style={{color: "white", backgroundColor: "red",marginRight:"1rem", marginTop: "1rem", width:"11rem", height:"4rem", fontSize:"1.2rem"}}
-              onClick={() => redirectToLink("https://expressions-of-peace.vercel.app")}
+              onClick={() => redirectToLink("https://www.youtube.com/watch?v=fyAuGtXctrk")}
             >
               Watch in action
             </Button>
