@@ -12,14 +12,17 @@ const SectionThree = () => {
             <div style={{ marginBottom: 20 }}>
               <Text color="black">
                 <Title order={1}>Your expression, your decision</Title>
-                <Text style={{ fontSize: "1.8rem", marginBottom: "2rem" }}>
+                <Text style={{ fontSize: "1.4rem", marginBottom: "2rem" }}>
                   We have developed a proof of concept app, and launched that on
-                  blockchain. 
+                  blockchain. We have named that Peacemaker. 
                   <br></br><br></br>
-                  An individual sovereignty on peace-oriented diplomacy, can experienced as a citizen of a country, or
+
+                  Using that app requires short setup, and it is free of charge. Here, we provide tools. Product is not you, it is to be a World Peace, because of you.
+                  <br></br><br></br>
+                  With that, first action of an individual sovereignty on peace-oriented diplomacy
+                  can be experienced (optionally) as a citizen of a country, or
                   by default, as a world resident, anonymously.
-                  
-                  
+        
                 </Text>
                 {/* Expressions of Peace extend the Freedom of Expression, it is
                 pretty much like "anything non-violent goes". */}

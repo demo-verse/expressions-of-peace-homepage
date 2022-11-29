@@ -24,10 +24,10 @@ const SectionOne = () => {
     <section id="section-one">
       <Container>
         <Text color="black" align="center" mb="15px">
-          <Title order={1}>How to make peace on web3?</Title>
+          <Title order={1}>Feeling like peacemaking today?</Title>
         </Text>
 
-        <Text color="black" align="center" mb="25px" style={{fontSize: "1.8rem"}}>
+        <Text color="black" align="center" mb="25px" style={{fontSize: "1.4rem"}}>
           It only takes high level of generosity and awareness.
         </Text>
 
@@ -51,8 +51,8 @@ const SectionOne = () => {
             <div style={carouselContent}>
               {/* <Title order={1}>1</Title> */}
               <Text style={{ textAlign: "center" }}>
-                Start with a good introduction to blockchain, <br></br>{" "}
-                 <a href="https://www.ibm.com/topics/what-is-blockchain" target={"_blank"}>here</a>.
+                Start with an introduction to blockchain, <br></br>{" "}
+                 <a href="https://blockgeeks.com/guides/what-is-blockchain-technology" target={"_blank"}>here</a>.
               </Text>
             </div>
           </Carousel.Slide>

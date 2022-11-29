@@ -28,20 +28,24 @@ const SectionTwo = () => {
               a person, or many, sometimes all people.{" "} */}
               </Text>
 
-              <Text style={{fontSize: "1.8rem", marginBottom: "1.6rem" }}>
+              <Text style={{fontSize: "1.4rem", marginBottom: "1.rem" }}>
               <MdOutlineFormatQuote size={"20"} />The Egyptian-Hittite peace treaty, following the battle of Kadesh is believed to be the earliest example of any written international agreement of any kind.
               <MdOutlineFormatQuote size={"20"}/> -- <a href="https://en.wikipedia.org/wiki/Battle_of_Kadesh" target={"_blank"}><i>Wikipedia</i></a>
               </Text>
 
-              <Text color="black" style={{ marginBottom: "22px",fontSize: "1.8rem" } }>
-              Most peace treaties in our history have been sealed following battles, wars and periods of violence and inhumane experiences; resulting with traumas, ending of lives, forcing people migrating to the realms and realities of (known and unknown) unknowns.
+              <Text color="black" style={{ marginBottom: "22px",fontSize: "1.4rem" } }>
+              Most peace treaties in our history have been sealed following battles, 
+              wars, periods of violence and inhumane experiences; 
+              resulting with traumas, ending of lives, 
+              forcing people migrating to the realms and realities of 
+              <i>(known and unknown)</i> unknowns.
 
               </Text>
 
-              <Text color="black" style={{ marginBottom: "22px",fontSize: "1.8rem" } }>
+              <Text color="black" style={{ marginBottom: "22px",fontSize: "1.4rem" } }>
                 <strong>Today</strong>, with a shared purpose, backed by{" "}
                  
-                <a href="https://www.aworldpeace.org/#our-right" target={"_blank"}>a human right</a>
+                <a href="https://www.aworldpeace.org/#our-right" target={"_blank"}>a new human right</a>
                 {" "}and technology, <strong>we can</strong> seal a World Peace treaty, {" "}
     
                 <a href="https://www.expressionsofdemand.org" target={"_blank"}>proactively</a>

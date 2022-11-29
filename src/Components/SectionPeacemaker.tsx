@@ -20,7 +20,7 @@ const SectionPeacemaker = () => {
               stores only the last expression, and previous ones go into
               transacrion history of those contracts. */}
             </Text>
-            <Text style={{fontSize: "1.8rem"}}>
+            <Text style={{fontSize: "1.4rem"}}>
             If you have completed the setup guide above, now it's time to make peace, like you never did before.
 
             </Text>

@@ -15,8 +15,8 @@ const Footer = () => {
                         
                         <Text weight={700} color="white" mb="10px" style={{fontSize: "1.8rem"}}>Expressions of Peace</Text>
 
-                        <Text color="white" mb="5px" style={{fontSize: "1.2rem"}}>
-                            Generation Peace! How would you express and make a World Peace?
+                        <Text color="white" mb="5px" style={{fontSize: "1.4rem"}}>
+                            Generation Peace!<br></br> How would you imagine, express and make a World Peace?
                         </Text>
 
                         {/* <Text color="white" mb="20px">
@@ -32,13 +32,8 @@ const Footer = () => {
                             <Anchor href="https://github.com/Giuseppetm">
                                 <UnstyledButton>
                                     <Group>
-                                        {/* <Avatar size={40} color="orange">GDC</Avatar> */}
-                                        {/* <div>
-                                            <Text>Giuseppetm</Text>
-                                            <Text size="xs" color="dimmed">giuseppe.delcampo@outlook.com</Text>
-                                        </div> */}
+                                  
                                          <div className="menu-items">
-                      {/* <Text>Peacemakers community</Text> */}
 
                       <Anchor
                         href="https://discord.gg/sqjdyCWNAR"
