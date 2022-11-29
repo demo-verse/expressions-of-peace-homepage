@@ -33,7 +33,7 @@ const SectionTwo = () => {
               <MdOutlineFormatQuote size={"20"}/> -- <a href="https://en.wikipedia.org/wiki/Battle_of_Kadesh" target={"_blank"}><i>Wikipedia</i></a>
               </Text>
 
-              <Text color="black" style={{ marginBottom: "22px",fontSize: "1.4rem" } }>
+              <Text color="black" style={{ marginBottom: "22px", marginTop: "22px", fontSize: "1.4rem" } }>
               Most peace treaties in our history have been sealed following battles, 
               wars, periods of violence and inhumane experiences; 
               resulting with traumas, ending of lives, 
