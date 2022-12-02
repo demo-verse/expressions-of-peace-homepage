@@ -22,8 +22,8 @@ const SectionThree = () => {
                   Peacemaker. It's based on smart contracts, running on web3.
                 </Text>
                 <Text style={{ fontSize: "1.2rem", marginTop: "1rem" }}>
-                  Express peace as a citizen of a country, or as a world
-                  resident, by default, anonymously.
+                  Express peace as a citizen of a country, or by default, as a world
+                  resident, anonymously.
                 </Text>
                 <Button
                 color="dark"
