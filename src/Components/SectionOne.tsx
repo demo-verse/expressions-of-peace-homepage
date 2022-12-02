@@ -17,7 +17,7 @@ const SectionOne = () => {
     // borderRadius: 0,
     // gap: 15,
     color: "white",
-    fontSize: "1.4rem",
+    fontSize: "1.2rem",
   };
 
   return (
@@ -27,7 +27,7 @@ const SectionOne = () => {
           <Title order={1}>Feeling like peacemaking today?</Title>
         </Text>
 
-        <Text color="black" align="center" mb="25px" style={{fontSize: "1.4rem"}}>
+        <Text color="black" align="center" mb="25px" style={{fontSize: "1.2rem"}}>
           It only takes high level of generosity and awareness.
         </Text>
 

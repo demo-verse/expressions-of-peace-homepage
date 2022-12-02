@@ -1,7 +1,7 @@
 # Homepage for Expressions of Peace
 [Expressions of Peace](https://expressionsofpeace.org) extend the Freedom of Expression; 
 
-.. imagined and being implemented as a novel and sustainable method of assuring a World Peace (optionally) as a citizen of any country/countries, while experiencing that along with the basic attitude & behavior of a world residency.
+.. imagined and being implemented as a novel and sustainable way of assuring a World Peace (optionally) as a citizen of any country/countries, while experiencing that along with the basic attitude & behavior of a world residency.
 
 They are indeed expressions, initially textual, and have been used in test (since August 2022) and production (since October 2022) environments.
 

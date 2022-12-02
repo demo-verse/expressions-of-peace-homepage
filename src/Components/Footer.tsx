@@ -25,12 +25,12 @@ const Footer = () => {
           <Grid.Col xs={12} sm={8} md={8} lg={8}>
             <Text
               color="white"
-              style={{ fontSize: "1.8rem", marginBottom: "2rem" }}
+              style={{ fontSize: "1.8rem", marginBottom: "1rem", color:"black" }}
             >
               Generation Peace!
             </Text>
 
-            <Text color="white" style={{ fontSize: "1.4rem" }}>
+            <Text color="white" style={{ fontSize: "1.2rem", color:"black" }}>
               How would you imagine,<br></br> express and make
               <br></br>{" "}
               <Button

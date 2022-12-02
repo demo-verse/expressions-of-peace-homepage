@@ -1,4 +1,4 @@
-import { Title, Text, Container, Grid, Image, Button } from "@mantine/core";
+import { Title, Text, Container, Grid, Image, Tooltip } from "@mantine/core";
 import { MdFormatQuote, MdOutlineFormatQuote } from "react-icons/md";
 
 const SectionTwo = () => {
@@ -15,9 +15,9 @@ const SectionTwo = () => {
               style={{ width: "100%" }}
             />
           </Grid.Col>
-          <Grid.Col xs={6} sm={8} md={8} lg={8}>
-            <div style={{ marginBottom: 20}}>
-              <Text color="black" style={{ marginBottom: "22px" }}>
+          <Grid.Col xs={0} sm={0} md={0} lg={8}>
+            <div>
+              <Text color="black" >
                 <Title order={1}  style={{textAlign: "center", fontSize: "2.2rem"}}>The world runs on contracts</Title>
                 
                 
@@ -28,12 +28,12 @@ const SectionTwo = () => {
               a person, or many, sometimes all people.{" "} */}
               </Text>
 
-              <Text style={{fontSize: "1.4rem", marginBottom: "1.rem" }}>
+              <Text style={{fontSize: "1.2rem", marginBottom: "1rem" }}>
               <MdOutlineFormatQuote size={"20"} />The Egyptian-Hittite peace treaty, following the battle of Kadesh is believed to be the earliest example of any written international agreement of any kind.
               <MdOutlineFormatQuote size={"20"}/> -- <a href="https://en.wikipedia.org/wiki/Battle_of_Kadesh" target={"_blank"}><i>Wikipedia</i></a>
               </Text>
 
-              <Text color="black" style={{ marginBottom: "22px", marginTop: "22px", fontSize: "1.4rem" } }>
+              <Text color="black" style={{ marginBottom: "1rem", marginTop: "22px", fontSize: "1.2rem" } }>
               Most peace treaties in our history have been sealed following battles, 
               wars, periods of violence and inhumane experiences; 
               resulting with traumas, ending of lives, 
@@ -42,10 +42,13 @@ const SectionTwo = () => {
 
               </Text>
 
-              <Text color="black" style={{ marginBottom: "22px",fontSize: "1.4rem" } }>
+              <Text color="black" style={{ marginBottom: "22px",fontSize: "1.2rem" } }>
                 <strong>Today</strong>, with a shared purpose, backed by{" "}
                  
+                 <Tooltip label="Everyone is free to be proactive, claim their equality, and use their free will to participate in a World Peace treaty, and be a legitimate co-signer of it, regardless of their entitlement, being official or not.">
+
                 <a href="https://www.aworldpeace.org/#our-right" target={"_blank"}>a new human right</a>
+                 </Tooltip>
                 {" "}and technology, <strong>we can</strong> seal a World Peace treaty, {" "}
     
                 <a href="https://www.expressionsofdemand.org" target={"_blank"}>proactively</a>

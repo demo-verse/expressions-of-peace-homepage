@@ -20,7 +20,7 @@ const SectionPeacemaker = () => {
               stores only the last expression, and previous ones go into
               transacrion history of those contracts. */}
             </Text>
-            <Text style={{fontSize: "1.4rem"}}>
+            <Text style={{fontSize: "1.2rem"}}>
             If you have completed the setup guide above, now it's time to make peace, like you never did before.
 
             </Text>
@@ -35,7 +35,7 @@ const SectionPeacemaker = () => {
               style={{color: "white", backgroundColor: "red",marginRight:"1rem", marginTop: "1rem", width:"11rem", height:"4rem", fontSize:"1.2rem"}}
               onClick={() => redirectToLink("https://www.youtube.com/watch?v=fyAuGtXctrk")}
             >
-              Watch in action
+              See in action
             </Button>
            
             <Button

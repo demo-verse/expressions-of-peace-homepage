@@ -1,19 +1,8 @@
-import {
-  Button,
-  Badge,
-  Burger,
-  Drawer,
-  Code,
-  Title,
-  Anchor,
-  Text,
-} from "@mantine/core";
-import { UnstyledButton, Group } from "@mantine/core";
+import { Button, Badge, Burger, Drawer, Title, Group } from "@mantine/core";
 import React from "react";
 import { Link } from "react-scroll";
 
 const Header = () => {
-  //const theme = useMantineTheme();
   const [opened, setOpened] = React.useState(false);
   const title = opened ? "Close navigation" : "Open navigation";
 
@@ -21,8 +10,8 @@ const Header = () => {
     <header>
       <div className="content-desktop">
         <div>
-          <Badge size="lg" radius={10} color="dark">
-            Constants of a World Peace
+          <Badge size="xl" radius={10} color="dark">
+            Expressions of Peace
           </Badge>
         </div>
         <div className="navbar">
@@ -62,14 +51,25 @@ const Header = () => {
       </div>
 
       <div className="content-mobile">
-        <div className="burger-button">
-          <Burger
-            opened={opened}
-            onClick={() => setOpened((o) => !o)}
-            title={title}
-            size="sm"
-          />
-        </div>
+        <Group position="apart">
+          <div>
+            <div>
+              <Badge size="lg" radius={10} color="dark">
+                Expressions of Peace
+              </Badge>
+            </div>{" "}
+          </div>
+          <div className="burger-button">
+            <Burger
+              color="white"
+              aria-label={title}
+              opened={opened}
+              onClick={() => setOpened((o) => !o)}
+              title={title}
+              size="md"
+            />
+          </div>
+        </Group>
 
         <Drawer
           transition="rotate-right"

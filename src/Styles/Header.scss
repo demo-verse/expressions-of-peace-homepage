@@ -1,25 +1,27 @@
 header {
-    position: absolute;
+    position: fixed;
     z-index: 99;
+    background-color: black;
 
     .navbar {
         display: flex;
         flex-direction: row;
-        gap: 25px;
+        gap: 2rem;
         align-items: center;
 
         .navbar-item {
             cursor: pointer;
-            font-weight: 500;
+            font-weight: 800;
+            color: aliceblue;
             
                 a {
-                    color: #2d2d2d;
+                    color: aliceblue;
                     transition: all 0.1s ease;
                 }
             
                 a:hover {
                     color: #fab005;
-                    text-decoration: none;
+                    text-decoration: underline;
                 }
         }
     }
@@ -28,11 +30,15 @@ header {
         justify-content: space-between;
         display: flex;
         align-items: center;
+        padding-top: 0.6rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     .content-mobile {
         .burger-button {
             float: right;
+            padding: 1rem;
         }
     }
 
@@ -40,15 +46,20 @@ header {
     @media only screen and (min-width: 769px) {
         .content-desktop {
             display: flex;
+            
         }
 
         .content-mobile {
             display: none;
+            
         }
 
-        top: 60px;
-        left: 60px;
-        right: 60px;
+        // top: 60px;
+        left: 0;
+        right: 0;
+        height: 4rem;
+        align-items: center;
+        
     }
 
     @media only screen and (max-width: 768px) {
@@ -58,11 +69,15 @@ header {
 
         .content-mobile {
             display: block;
+            padding-left: 2rem;
+            padding-right: 2rem;
+
         }
 
-        top: 30px;
-        left: 20px;
-        right: 20px;
+        // top: 30px;
+        height: 4rem;
+        left: 0;
+        right: 0;
     }
 }
 
