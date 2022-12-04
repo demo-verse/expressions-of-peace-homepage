@@ -21,7 +21,7 @@ const SectionPeacemaker = () => {
               transacrion history of those contracts. */}
             </Text>
             <Text style={{fontSize: "1.2rem"}}>
-            If you have completed the setup guide above, now it's time to make peace, like you never did before.
+            If you have read the guide above, now it's time to make peace, like you never did before.
 
             </Text>
             

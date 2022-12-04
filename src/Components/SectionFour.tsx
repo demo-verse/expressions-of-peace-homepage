@@ -1,6 +1,7 @@
 import {
   useMantineTheme,
   Badge,
+  Button,
   Container,
   Text,
   Title,
@@ -9,6 +10,9 @@ import {
   Image,
   Group,
 } from "@mantine/core";
+import { Link } from "react-scroll";
+import { MdOutlineArrowDownward } from "react-icons/md";
+
 
 const SectionFour = () => {
   const theme = useMantineTheme();
@@ -54,9 +58,19 @@ const SectionFour = () => {
                   Write an expression with your own words or quote from someone else.
                   It's best if it is an unconditional one.
                 </Text>
-                <Badge size="lg" radius={10} color="dark">
+                <Badge size="xl" radius={10} color="dark">
                   Post
                 </Badge>
+                <Link to="section-peacemaker" smooth duration={500}>
+                <Button
+                  color="violet"
+                  leftIcon={<MdOutlineArrowDownward size={12} />}
+                  radius="lg"
+                  size="sm"
+                >
+                  try it out
+                </Button>
+              </Link>
               </Group>
 
               {/* <Text size="sm">
@@ -92,6 +106,9 @@ const SectionFour = () => {
                 </Text>
                 <Badge size="lg" radius={10} color="dark">
                   Search, Comment
+                </Badge>
+                <Badge size="lg" radius={10} color="soon">
+                  soon
                 </Badge>
                 
                 {/* <Badge color="yellow" variant="light">
@@ -132,6 +149,9 @@ const SectionFour = () => {
                 </Text>
                 <Badge size="lg" radius={10} color="dark">
                   Like, Follow
+                </Badge>
+                <Badge size="lg" radius={10} color="soon">
+                  soon
                 </Badge>
                 {/* <Badge color="yellow" variant="light">
                                     Cool badge 2
