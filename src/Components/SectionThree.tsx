@@ -60,7 +60,7 @@ const SectionThree = () => {
             <Button
                 color="dark"
                 style={{ marginTop: "0.6rem", fontSize: "1.2rem" }}
-                onClick={() => redirectToLink("https://goerli.etherscan.io/address/0x82e4afb4c80f84ffa2c95af29293c538f96f726e")}
+                onClick={() => redirectToLink("https://goerli.etherscan.io/address/0x82e4afb4c80f84ffa2c95af29293c538f96f726e#code")}
               >
                 current contract
               </Button>
