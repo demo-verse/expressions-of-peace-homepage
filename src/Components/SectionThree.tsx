@@ -43,6 +43,7 @@ const SectionThree = () => {
                 See in action
               </Button>
             
+            
               </Text>
 
               
@@ -50,11 +51,27 @@ const SectionThree = () => {
             
           </Grid.Col>
           <Grid.Col xs={6} sm={4} md={4} lg={8}>
+            
             <Image
               src={require("../Images/your-expression-your-decision-2.png")}
               alt={"sample2"}
               style={{ width: "100%", marginTop: "4rem" }}
             />
+            <Button
+                color="dark"
+                style={{ marginTop: "0.6rem", fontSize: "1.2rem" }}
+                onClick={() => redirectToLink("https://goerli.etherscan.io/address/0x82e4afb4c80f84ffa2c95af29293c538f96f726e")}
+              >
+                current contract
+              </Button>
+
+              <Button
+                color="dark"
+                style={{ marginLeft:"0.8rem", marginTop: "0.6rem", fontSize: "1.2rem" }}
+                onClick={() => redirectToLink("https://github.com/demo-verse/expressions-of-peace/blob/main/contracts/ExpressionOfPeaceV3.sol")}
+              >
+                next contract
+              </Button>
           </Grid.Col>
         </Grid>
       </Container>
