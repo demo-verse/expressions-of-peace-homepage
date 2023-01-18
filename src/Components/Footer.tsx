@@ -114,7 +114,7 @@ const Footer = () => {
                   <br></br>
                   "copyrighting a World Peace is for losers" © Thanksy
                   <hr></hr>
-                  future.made@offsetmovement.org
+                  someone@aworldpeace.org
                 </div>
               </Group>
             </Code>

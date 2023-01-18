@@ -23,7 +23,15 @@ const SectionThree = () => {
                 </Text>
                 <Text style={{ fontSize: "1.2rem", marginTop: "1rem" }}>
                   Express peace as a citizen of a country, or by default, as a world
-                  resident, anonymously.
+                  resident, anonymously. 
+                </Text>
+
+                <Text style={{ fontSize: "1.2rem", marginTop: "1rem" }}>
+                 On the other hand, we are <strong>not</strong> proposing a text with an intention to build consensus around, similar to a petition. Rather, all have their own expressions of peace. 
+                </Text>
+
+                <Text style={{ fontSize: "1.2rem", marginTop: "1rem" }}>
+                A mutual assured regeneration expected to be an outcome of a consensus on this: <u>all human beings are equal on peacemaking</u>.
                 </Text>
                 <Button
                 color="dark"

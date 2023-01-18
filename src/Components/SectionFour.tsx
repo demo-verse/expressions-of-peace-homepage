@@ -34,7 +34,7 @@ const SectionFour = () => {
         >
           Expressions of Peace extend the Freedom of Expression; imagined as
           sincere and sustainable ways of assuring a World Peace to the rest of
-          the world. in a multi-stakeholder and peer-to-peer fashion,
+          the world, in a multi-stakeholder and peer-to-peer fashion,
           altogether.
         </Text>
         <Grid>
