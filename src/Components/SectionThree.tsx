@@ -12,74 +12,89 @@ const SectionThree = () => {
               <Text color="black">
                 <Title order={1}>Your expression, your decision</Title>
                 <Text style={{ fontSize: "1.2rem", marginTop: "2rem" }}>
-                  Here, we provide open sourced and minded tools; and the
-                  product is <strong>not</strong> you, it is meant to be a World
-                  Peace, <u>thanks to you.</u>
+                  Our mission is to offer accessible and inclusive tools that
+                  promote the concept of World Peace, and not to exploit or
+                  commodify our users.
+                </Text>
+
+                <Text style={{ fontSize: "1.2rem", marginTop: "2rem" }}>
+                  To this end, we have developed an open-source proof-of-concept
+                  app called Peacemaker. This app is powered by smart contracts
+                  and operates on the web3 platform. It allows users to express
+                  their desire for peace either as a resident of a particular
+                  country or as a global citizen, while also maintaining
+                  anonymity.
                 </Text>
 
                 <Text style={{ fontSize: "1.2rem", marginTop: "1rem" }}>
-                  We have developed a proof of concept app, and named that
-                  Peacemaker. It's based on smart contracts, running on web3.
-                </Text>
-                <Text style={{ fontSize: "1.2rem", marginTop: "1rem" }}>
-                  Express peace as a citizen of a country, or by default, as a world
-                  resident, anonymously. 
-                </Text>
-
-                <Text style={{ fontSize: "1.2rem", marginTop: "1rem" }}>
-                 On the other hand, we are <strong>not</strong> proposing a text with an intention to build consensus around, similar to a petition. Rather, all have their own expressions of peace. 
+                  Unlike a petition, our approach is not to propose a text to
+                  build consensus around but rather to empower individuals to
+                  express their unique perspectives on peace. Through this
+                  process, we hope to reach a mutual understanding that
+                  acknowledges the equality of all human beings when it comes to
+                  achieving peace (as well). 
                 </Text>
 
                 <Text style={{ fontSize: "1.2rem", marginTop: "1rem" }}>
-                A mutual assured regeneration expected to be an outcome of a consensus on this: <u>all human beings are equal on peacemaking</u>.
+                 Ultimately, our goal is to achieve a state of
+                  mutual assured regeneration through this consensus-building
+                  process.{" "}
                 </Text>
                 <Button
-                color="dark"
-                style={{
-                  color: "white",
-                  backgroundColor: "black",
-                  marginRight: "1rem",
-                  marginTop: "2rem",
-                  width: "11rem",
-                  height: "4rem",
-                  fontSize: "1.2rem",
-                }}
-                onClick={() =>
-                  redirectToLink("https://www.youtube.com/watch?v=fyAuGtXctrk")
-                }
-              >
-                See in action
-              </Button>
-            
-            
+                  color="dark"
+                  style={{
+                    color: "white",
+                    backgroundColor: "black",
+                    marginRight: "1rem",
+                    marginTop: "2rem",
+                    width: "11rem",
+                    height: "4rem",
+                    fontSize: "1.2rem",
+                  }}
+                  onClick={() =>
+                    redirectToLink(
+                      "https://www.youtube.com/watch?v=fyAuGtXctrk"
+                    )
+                  }
+                >
+                  See in action
+                </Button>
               </Text>
-
-              
             </div>
-            
           </Grid.Col>
           <Grid.Col xs={6} sm={4} md={4} lg={8}>
-            
             <Image
               src={require("../Images/your-expression-your-decision-2.png")}
               alt={"sample2"}
               style={{ width: "100%", marginTop: "4rem" }}
             />
             <Button
-                color="dark"
-                style={{ marginTop: "0.6rem", fontSize: "1.2rem" }}
-                onClick={() => redirectToLink("https://goerli.etherscan.io/address/0x82e4afb4c80f84ffa2c95af29293c538f96f726e#code")}
-              >
-                current contract
-              </Button>
+              color="dark"
+              style={{ marginTop: "0.6rem", fontSize: "1.2rem" }}
+              onClick={() =>
+                redirectToLink(
+                  "https://goerli.etherscan.io/address/0x82e4afb4c80f84ffa2c95af29293c538f96f726e#code"
+                )
+              }
+            >
+              current contract
+            </Button>
 
-              <Button
-                color="dark"
-                style={{ marginLeft:"0.8rem", marginTop: "0.6rem", fontSize: "1.2rem" }}
-                onClick={() => redirectToLink("https://github.com/demo-verse/expressions-of-peace/blob/main/contracts/ExpressionOfPeaceV3.sol")}
-              >
-                next contract
-              </Button>
+            <Button
+              color="dark"
+              style={{
+                marginLeft: "0.8rem",
+                marginTop: "0.6rem",
+                fontSize: "1.2rem",
+              }}
+              onClick={() =>
+                redirectToLink(
+                  "https://github.com/demo-verse/expressions-of-peace/blob/main/contracts/ExpressionOfPeaceV3.sol"
+                )
+              }
+            >
+              next contract
+            </Button>
           </Grid.Col>
         </Grid>
       </Container>
