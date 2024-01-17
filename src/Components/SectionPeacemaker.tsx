@@ -11,7 +11,7 @@ const SectionPeacemaker = () => {
             <div style={{ marginBottom: 20 }}>
 
             <Text color="black">
-              <Title order={1}>Be a  peacemaker</Title>
+              <Title order={1}>Be a peacemaker. It is always free.</Title>
 
               {/* For the Peacemaker decentralized app (dapp), we have prepared
               simple smart contracts, and they are evolving. 
